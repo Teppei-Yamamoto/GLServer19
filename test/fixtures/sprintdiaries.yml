@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  surum_menber: one
+  bdiary: MyString
+
+two:
+  surum_menber: two
+  bdiary: MyString

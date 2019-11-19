@@ -111,7 +111,7 @@ bootstrap_form を使うと、Bootstrap に対応したフォームを簡単に�
 https://github.com/bootstrap-ruby/bootstrap_form
 
 bootstrap_form を使うと、次のようにフォームの記述が3分の１になる。
-
+foobar
 ```erb
 <%= bootstrap_form_for(@user) do |f| %>
   <%= f.email_field :email %>
