@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
 
-  resources :sprintdiaries
   root                'static_pages#home'
   get    'help'    => 'static_pages#help'
   get    'about'   => 'static_pages#about'
@@ -60,6 +59,10 @@ Rails.application.routes.draw do
         end
       end
     #end
+  end
+
+  resources :scrum_members do
+    resources :sprint_diaries
   end
 
   # You can have the root of your site routed with "root"

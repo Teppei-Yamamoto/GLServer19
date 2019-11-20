@@ -1,0 +1,2 @@
+module SprintDiariesHelper
+end

@@ -1,0 +1,27 @@
+<%= form_with(model: [@scrum_member, @sprint_diary], local: true) do |form| %>
+  <% if @sprint_diary.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@sprint_diary.errors.count, "error") %> prohibited this sprint_diary from being saved:</h2>
+
+      <ul>
+      <% @sprint_diary.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :scrum_member_id %>
+    <%= form.text_field :scrum_member_id, id: :sprint_diary_scrum_member_id %>
+  </div>
+
+  <div class="field">
+    <%= form.label :bdiary %>
+    <%= form.text_field :bdiary, id: :sprint_diary_bdiary %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

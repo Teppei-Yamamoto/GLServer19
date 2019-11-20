@@ -1,9 +1,9 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  surum_menber: one
+  scrum_member: one
   bdiary: MyString
 
 two:
-  surum_menber: two
+  scrum_member: two
   bdiary: MyString

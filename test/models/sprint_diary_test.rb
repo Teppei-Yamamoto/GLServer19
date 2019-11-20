@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class SprintdiaryTest < ActiveSupport::TestCase
+class SprintDiaryTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end
